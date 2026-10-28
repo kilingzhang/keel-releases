@@ -1,6 +1,6 @@
 # 安装与更新说明
 
-正式版本发布前，此文档只描述预定的安装路径，不表示当前已有可用安装包。
+当前稳定版为 **0.2.0**，支持 Apple 芯片 Mac 和 macOS 14 或更新版本。[下载已签名并公证的安装包](https://github.com/kilingzhang/keel-releases/releases/download/v0.2.0/Keel-0.2.0-macOS-arm64.dmg)。
 
 ## 首次安装
 

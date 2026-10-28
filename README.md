@@ -6,9 +6,9 @@
 
 ## 下载与安装
 
-当前尚无经过完整发行验收的安装包。正式版本就绪后，会出现在 [Releases](https://github.com/kilingzhang/keel-releases/releases) 中。
+[下载 0.2.0 安装包](https://github.com/kilingzhang/keel-releases/releases/download/v0.2.0/Keel-0.2.0-macOS-arm64.dmg) · [查看版本说明](https://github.com/kilingzhang/keel-releases/releases/latest)
 
-首个发行目标为 Apple 芯片 Mac，macOS 14 或更新版本。正式发布后，下载名称以 `.dmg` 结尾的安装包，将 Keel 拖入“应用程序”再打开。
+当前稳定版为 **0.2.0**，适用于 Apple 芯片 Mac，macOS 14 或更新版本。安装包已完成 Developer ID 签名和 Apple 公证。打开 `.dmg`，将 Keel 拖入“应用程序”再打开。
 
 GitHub 自动显示的 `Source code (zip)` 和 `Source code (tar.gz)` 只包含本仓库的分发说明，不是浏览器安装包。
 
@@ -20,17 +20,18 @@ GitHub 自动显示的 `Source code (zip)` 和 `Source code (tar.gz)` 只包含�
 
 “设置 → 更新”可关闭自动检查。关闭后仍可手动检查。
 
-目前没有公开更新 feed，也尚未完成真实 GitHub 升级验收。当前开发包不能通过此仓库自动升级；启用更新的首个版本需要安装一次。
+稳定更新 feed 随正式版公开，应用会自动使用。首次使用请下载安装包；本地开发包使用独立数据目录，不能直接通过此仓库切换为正式版。当前已完成本机更新流程验证，跨公开版本的应用内升级将随后续版本验证。
 
 ## 版本与文件
 
-每个正式版本将提供：
+每个正式版本提供：
 
 - `Keel-<版本>-macOS-arm64.dmg`：首次安装。
 - `Keel-<版本>-macOS-arm64.zip`：自动更新使用的完整应用包。
 - `appcast.xml`：带签名的更新索引。
 - `SHA256SUMS`：下载文件的校验和。
 - `release-notes.md`：本次版本说明。
-- `THIRD-PARTY-NOTICES.txt`：该发行版的第三方版权与许可材料。
+- `THIRD-PARTY-NOTICES.txt`：该发行版的第三方版权与许可说明。
+- `release-manifest.json`：版本、制品大小、校验和及公证记录。
 
-每个发行包以版本对应的条款及第三方 notices 为准。当前仓库的建立不表示任何未发布二进制已取得公开分发授权。
+第三方版权与许可说明随安装包及各版本的 `THIRD-PARTY-NOTICES.txt` 提供。
