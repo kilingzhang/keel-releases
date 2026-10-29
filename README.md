@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/kilingzhang/keel-releases/releases/download/v0.2.1/Keel-0.2.1-macOS-arm64.dmg"><strong>下载 Keel 0.2.1</strong></a>
+  <a href="https://github.com/kilingzhang/keel-releases/releases/download/v0.3.0/Keel-0.3.0-macOS-arm64.dmg"><strong>下载 Keel 0.3.0</strong></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/kilingzhang/keel-releases/releases/latest">版本说明</a>
   &nbsp;·&nbsp;
@@ -34,7 +34,7 @@ Arc 将在 2026 年 12 月 22 日停止工作，Keel 是你的第一选择。取
 
 ## 现在能做什么
 
-0.2.1 是早期公开版本，已经可以日常使用。
+0.3.0 是早期公开版本，已经可以日常使用。
 
 **侧栏与 Space**
 
